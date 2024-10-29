@@ -13,7 +13,7 @@ import { useSelector } from "react-redux";
 
 const NavbarTop = () => {
 
-  // const cartData =useSelector(state=>console.log(state))
+  const cartData =useSelector(state=>console.log(state.cartDetails.value,'ddd'))
   
   
   
